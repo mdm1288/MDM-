@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ware</title>
+    <link rel="stylesheet">
+    <style>
+        div {
+            background-color: burlywood;
+            padding: 5px;
+            margin: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30x;
+            border: 3px rgb(182, 117, 71) solid;
+        }
+
+        @media (min-width: 600px) {
+            body {
+                background-color: rgb(224, 197, 162);
+            }
+        }
+
+        @media (min-width: 601px) {
+            body {
+                background-color: rgb(235, 174, 94);
+            }
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        table {
+            border: 2px solid brown;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 2px solid brown;
+            background-color: rgb(172, 79, 79);
+            padding: 5px;
+        }
+
+        td {
+            border: 2px solid brown;
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: rgb(143, 52, 52);
+        }
+
+        button:hover {
+            background-color: rgb(179, 130, 67);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: rgb(128, 92, 46);text-align:center;">big cat </h1>
+
+    <form>
+        <div>
+            <input type="text" placeholder="nam cat" name="name">
+            <input type="submit" name="name">
+            <input type="password" placeholder="password" name="password">
+        </div>
+
+
+        <div style="text-align:right;">
+            <input list="Big Cat" name="list" placeholder="Big cat" style="text-align:center;">
+            <datalist id="Big Cat">
+                <option value="lion">
+                <option value="tiger">
+                </option>
+            </datalist>
+
+        </div>
+        <div> Type:
+            <input type="radio" name="type" value="snow"> Snow
+            <input type="radio" name="type" value="desert"> Desert
+        </div>
+
+
+    </form>
+    <div id="mobile">
+        <ul>
+            <h3>
+                <li>lion</li><button style="text-align:center">lion</button>
+
+            </h3>
+            <img src="cat.JPG" alt="cat" width="300">
+            <h3>
+                <li>tiger</li><button style="text-align:center">tiger</button>
+
+            </h3>
+            <img src="tiger.JPG" alt="cat1" width="300">
+
+        </ul>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <th>Big Cat</th>
+                <th></th>
+                <th>wight</th>
+                <th></th>
+                <th>tall</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="color: red;text-align:center;">Lion</td>
+                    <td></td>
+                    <td>120 Kg</td>
+                    <td></td>
+                    <td>180 Cm</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td style="color: red; text-align:center;">tiger</td>
+                    <td></td>
+                    <td>150 Kg</td>
+                    <td></td>
+                    <td>200 Cm</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+</body>
+
+</html>
